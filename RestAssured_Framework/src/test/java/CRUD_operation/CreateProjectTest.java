@@ -38,9 +38,9 @@ public class CreateProjectTest {
 		
 		//step 3: validate the response
 		System.out.println(resp.getContentType());
-		System.out.println(resp.getStatusCode());
-		System.out.println(resp.getStatusLine());
 		System.out.println(resp.asString());
+		System.out.println("Ank");
+		
 		
 		
 	}
